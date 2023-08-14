@@ -1,5 +1,4 @@
-# Solar-analysis
-Project Documentation: Solar Energy and Battery Model
+# Solar Energy and Battery Model
 # Purpose of the Model
 The purpose of this model is to analyze and optimize the utilization of solar energy and a battery storage system to reduce electricity costs for Naomi. The model takes into account solar panel electricity generation, electricity usage, battery charge, electricity price variations, and inflation rates to calculate projected savings and assess the feasibility of investing in a battery system.
 # Data and Checks
