@@ -1,6 +1,6 @@
 # Solar Energy and Battery Model
 # Purpose of the Model
-The purpose of this model is to analyze and optimize the utilization of solar energy and a battery storage system to reduce electricity costs for Naomi. The model takes into account solar panel electricity generation, electricity usage, battery charge, electricity price variations, and inflation rates to calculate projected savings and assess the feasibility of investing in a battery system.
+The purpose of this model is to analyze and optimize the utilization of solar energy and a battery storage system to reduce electricity costs for the user. The model takes into account solar panel electricity generation, electricity usage, battery charge, electricity price variations, and inflation rates to calculate projected savings and assess the feasibility of investing in a battery system.
 # Data and Checks
 Data Source
 The data used in this project was gotten from the 'Junior Data Analyst _ Data.xlsx' file.
@@ -18,7 +18,7 @@ Data Cleaning
 4.	Cost and Savings Analysis: The cost of electricity purchased with and without the battery was calculated for each hour and aggregated monthly. The difference in costs represented the potential savings from using the battery.
 5.	Scenario Analysis: Two scenarios were analyzed:
 •	Scenario 1: Government-expected electricity price increase of 4% p.a.
-•	Scenario 2: Naomi's estimated electricity price increase starting at 4% p.a. and rising by an additional 0.25% p.a., with a discount rate of 6% p.a. Net Present Value (NPV) was calculated for both scenarios to assess their financial viability.
+•	Scenario 2: The user's estimated electricity price increase starting at 4% p.a. and rising by an additional 0.25% p.a., with a discount rate of 6% p.a. Net Present Value (NPV) was calculated for both scenarios to assess their financial viability.
 6.	Internal Rate of Return (IRR): The IRR was calculated using the fsolve function to find the discount rate that equates the NPV to the initial cost of the battery for each scenario.
 # Conclusion
 The developed model provides insights into the potential benefits of implementing a battery storage system alongside solar panel. By analyzing scenarios of electricity price increases and inflation rates, the model evaluates the financial feasibility and returns on investment associated with such an endeavor. 
